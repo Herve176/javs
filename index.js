@@ -8,22 +8,22 @@ btn.addEventListener("click", function () {
    switch(i)
    {
       case 1:
-         img.innerHTML.src =  './src/'+ 1+'.png';
+         img.innerHTML.src =  './'+ 1+'.png';
          break;
          case 2:
-            img.innerHTML.src = './src/' + 2 + '.png';
+            img.innerHTML.src = './' + 2 + '.png';
          break;
          case 3:
-            img.innerHTML.src = './src/' + 3 + '.png';
+            img.innerHTML.src = './' + 3 + '.png';
          break;
          case 4:
-            img.innerHTML.src = './src/' + 4 + '.png';
+            img.innerHTML.src = './' + 4 + '.png';
          break;
          case 5:
-            img.innerHTML.src = './src/' + 5 + '.png';
+            img.innerHTML.src = './' + 5 + '.png';
          break;
          case 6:
-            img.innerHTML.src = './src/' + 6 + '.png';
+            img.innerHTML.src = './' + 6 + '.png';
          break;
 
    }
