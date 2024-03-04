@@ -5,9 +5,12 @@ let btn = document.getElementById("btn");
 
 btn.addEventListener("click", function () {
    let i = Math.floor(Math.random() * 7);
-   switch(i)
+   img.src =  './'+ i +'.png';
+
+   
+   /*switch(i)
    {
-      case 1:
+         case 1:
          img.innerHTML.src =  './'+ 1+'.png';
          break;
          case 2:
@@ -25,8 +28,7 @@ btn.addEventListener("click", function () {
          case 6:
             img.innerHTML.src = './' + 6 + '.png';
          break;
-
-   }
+   }*/
    if (number != i) {
       alert("you lose mother fucker.replay press ok!")
    }
